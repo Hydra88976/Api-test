@@ -1,4 +1,4 @@
-fetch('https://www.ppsspp.org', {
+fetch('https://api.allorigins.win/raw?url=https://www.ppsspp.org', {
   method: 'GET', // or 'PUT', 'PATCH', etc.
   
 })
