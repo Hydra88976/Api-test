@@ -10,8 +10,10 @@ fetch('https://www.york.ac.uk', {
 })
 .then(data => {
   console.log('Success:', data);
+  alert(data);
 })
 .catch(error => {
+  alert(error);
   console.error('Error:', error);
 });
 
